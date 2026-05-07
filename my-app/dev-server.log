@@ -1,0 +1,29 @@
+
+> my-app@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.56.1:3000
+- Environments: .env.local
+✓ Ready in 620ms
+Creating turbopack project {
+  dir: 'C:\\Users\\Manas Dubey\\OneDrive\\Desktop\\dsa website\\my-app',
+  testMode: true
+}
+
+ GET / 200 in 2.1s (next.js: 1940ms, application-code: 191ms)
+ GET / 200 in 103ms (next.js: 12ms, application-code: 90ms)
+ GET / 200 in 168ms (next.js: 38ms, application-code: 131ms)
+ GET /profile 200 in 2.5s (next.js: 2.1s, application-code: 329ms)
+ GET /default-avatar.png 404 in 893ms (next.js: 741ms, application-code: 151ms)
+ GET /login 200 in 1171ms (next.js: 1125ms, application-code: 47ms)
+ GET /login 200 in 132ms (next.js: 13ms, application-code: 119ms)
+ GET /profile 200 in 127ms (next.js: 8ms, application-code: 119ms)
+ GET /login 200 in 151ms (next.js: 9ms, application-code: 142ms)
+ GET /default-avatar.png 404 in 95ms (next.js: 14ms, application-code: 80ms)
+ GET /login 200 in 81ms (next.js: 7ms, application-code: 75ms)
+ GET /signup 200 in 904ms (next.js: 802ms, application-code: 102ms)
+ GET / 200 in 79ms (next.js: 8ms, application-code: 72ms)
+ GET /login 200 in 91ms (next.js: 9ms, application-code: 82ms)
+ GET / 200 in 84ms (next.js: 5ms, application-code: 79ms)

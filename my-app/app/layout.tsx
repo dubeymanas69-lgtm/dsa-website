@@ -17,8 +17,9 @@ export default function RootLayout({
       <body className="bg-gray-100 text-gray-900">
         {/* Shared Navbar */}
         <header className="bg-blue-600 text-white p-4 flex justify-between">
-          <h1 className="font-bold">DSA Platform</h1>
+          <h1 className="font-bold">DSA Platform<a href="/"></a></h1>
           <nav className="space-x-4">
+            
             <a href="/" className="hover:underline">Home</a>
             <a href="/profile" className="hover:underline">Profile</a>
             <a href="/login" className="hover:underline">Login</a>
