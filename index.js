@@ -1,0 +1,13 @@
+const express = require('express');
+const app = express();
+const path = require('path');
+
+app.use(express.static(path.join(__dirname, 'app')));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'app', 'home.html'));
+});
+
+app.listen(3000, () => {
+  console.log('Server running at http://localhost:3000');
+});
